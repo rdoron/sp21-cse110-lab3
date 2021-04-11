@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>my journal</title>
+        <meta name="Rachel Doron" content="Rachel's journals">
+        <link rel="icon" href="icon.jpeg" type="image/jpeg">
+
+
+    </head>
+
+    <body>
+        <header>
+            <div>
+                <h1> Journal Entries </h1>
+            </div>
+
+            <span>
+                <h5> by Rachel Doron</h5>
+            </span>
+
+            <nav>
+                <a href= "https://ucsd.edu/"> ucsd website</a>
+            </nav>
+
+            <details>
+                <summary>info</summary>
+                <p>Rachel is a second year student at UCSD</p>
+              </details>
+            
+            
+        </header>
+
+        <main>
+
+            <hr> 
+
+            <section>
+                <h2> Day 1</h2>
+                <h3> <i> 4-8-2021</i></h3>
+                <ul>
+                    <li>went home to visit my family</li>
+                    <li>went out to go get coffee</li>
+                    <li>had a lot of homework to do</li>
+                </ul>
+        
+                <ol>
+                    <li>go grocery shopping</li>
+                    <li>watch lectures</li>
+                    <li>do homework</li>
+                </ol>
+        
+                <p>today was a very <b>stressful day.</b> I had <em> a lot </em> to do and I had to <br> manage my time well because there is always
+                    a long line <br> to get into the <strong>grocery store</strong> and I have snychronous classes. </p>
+        
+                <picture>
+                    <img src = "coffee.jpeg" width = "150" height = "250" >
+                </picture>
+        
+                <audio controls>
+                    <source src="Day1song.m4a"  > 
+                </audio>
+        
+                <video width = "150" height = "250" controls>
+                    <source src = "sunset.MOV"> 
+                </video>
+
+            </section>
+
+            <hr>
+
+            <section>
+
+                <h2> Day 2</h2>
+                <h3> <i> 4-9-2021</i></h3>
+        
+                <ul>
+                    <li>wake up at 6:00 am</li>
+                    <li>watch lectures </li>
+                    <li>went to go watch the sunset</li>
+                </ul>
+        
+                <ol>
+                    <li>take quiz</li>
+                    <li>interview at 3:00</li>
+                    <li>do homework</li>
+                </ol>
+        
+                <p>today was a very busy day. I had a <em>quiz </em> and lectues and an <strong>interview.</strong> <br> I think my interview went well but 
+                    I am waiting to hear back and I am kind of nervous. <br> I also saw a very <b>pretty sunset today.</b> </p>
+        
+                <picture>
+                    <img src = "pizza.jpeg" width = "200" height = "250" >
+                </picture>
+        
+                <audio controls>
+                    <source src="Day2song.m4a"  > 
+                </audio>
+        
+                <video width = "150" height = "250" controls>
+                    <source src = "sandwich.mp4"> 
+                </video>
+
+            </section>
+
+            <hr>
+
+            <section>
+                <h2> Day 3</h2>
+                <h3><i> 4-10-2021</i></h3>
+        
+                <ul>
+                    <li>go grocery shopping</li>
+                    <li>go to kate session park </li>
+                    <li>run errands</li>
+                </ul>
+        
+                <ol>
+                    <li>work on lab</li>
+                    <li>team meeting at 1</li>
+                    <li>do homework</li>
+                </ol>
+        
+                <p>on the weekend I have a lot going on because I have to do  <br> homework and I want to have time to <em>relax. </em> 
+                    I had a <b>fun weekend. </b> <br> I love going to <strong>kate sesssions park. </strong> </p>
+        
+                <picture>
+                    <img src = "park.jpeg" width = "150" height = "250" >
+                </picture>
+        
+                <audio controls>
+                    <source src="day3song.m4a"> 
+                </audio>
+        
+                <video width = "150" height = "250" controls>
+                    <source src = "beach.MOV"> 
+                </video>
+
+            </section>
+
+            <hr>
+
+        </main>
+
+        <footer>
+            <form>
+                <fieldset>
+
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname">
+                    
+                    <br>
+                    <br>
+
+                    <label for="date">date:</label>
+                    <input type="date" id="date" name="date">
+
+                    <br>
+                    <br>
+
+                    <label for="journal">journal:</label>
+
+                    <textarea id="journal" name="journal" rows="4" cols="50">
+                        
+                    </textarea>
+
+                    <br>
+                    <br>
+
+
+                    <input type="checkbox" id="Day1" name="Day1" value="day1">
+                    <label for="Day1"> journal entery for day 1</label><br>
+                    <input type="checkbox" id="Day2" name="Day2" value="day2">
+                    <label for="Day1"> journal entery for day 2</label><br>
+                    <input type="checkbox" id="Day3" name="Day3" value="day3">
+                    <label for="Day1"> journal entery for day 3</label>
+                    
+                    <br>
+                    <br>
+
+                    <input type="radio" id="very busy" name="busy" value="verybusy">
+                    <label for="very busy">very busy</label><br>
+                    <input type="radio" id="moderately busy" name="busy" value="moderately busy">
+                    <label for="moderately busy">moderately busy</label><br>
+                    <input type="radio" id="relaxed" name="busy" value="relaxed">
+                    <label for="relaxed">relaxed</label>
+
+                    <br>
+                    <br>
+
+                    <label for="task">Choose your tasks for today:</label>
+                    <input list="tasks" name="task" id="task">
+
+                    <datalist id="tasks">
+                        <option value="Grocery shop">
+                        <option value="homework">
+                        <option value="run errands">
+                        <option value="relax">
+                        <option value="hangout with friends">
+                    </datalist>
+
+                    <br>
+                    <br>
+
+                    <label for="day">Choose day of the week:</label>
+
+                    <select name="day" id="day">
+                    <option value="monday">monday</option>
+                    <option value="tuesday">tuesday</option>
+                    <option value="wednesday">wednesday</option>
+                    <option value="thursday">thursday</option>
+                    <option value="saturday">saturday</option>
+                    <option value="sunday">sunday</option>
+                    </select>
+
+                    <br>
+                    <br>
+
+                    <button type="button">submit</button>
+
+
+                    
+                    
+
+                </fieldset>
+
+            </form>
+            <p> Author: Rachel Doron <br> email: rdoron@ucsd.edu</b></p>
+        </footer>
+
+
+    </body>
+</html>
