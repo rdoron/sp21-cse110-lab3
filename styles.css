@@ -1,0 +1,141 @@
+*{
+    background-color: rgb(178, 172, 136); /*changes background color to green*/ 
+
+}
+
+/*custom fonts*/ 
+@font-face{
+    font-family: OrelegaOne; 
+    src: url("OrelegaOne-Regular.ttf")
+}
+
+/*website title*/ 
+.title{
+    font-family: OrelegaOne, Times, serif; 
+    font-size: 2rem; 
+    padding: 1em; 
+    width: 92vw;  
+    border: 4px solid #FFF;   
+}
+
+/*website title*/ 
+.title:hover{
+    color: hsl(126, 50%, 31%);
+}
+
+/*ucsd link*/ 
+nav.ucsdLink:active{
+    background-color: white;
+
+}
+
+/*ucsd link*/
+a[href="https://ucsd.edu/"]{
+    color: pink; 
+}
+
+/*journal day*/ 
+h2{
+    padding: 5px 25px 25px 0px; 
+    color: hsl(126, 50%, 31%); 
+    text-decoration: underline;
+    text-align: left;
+    display: inline; 
+}
+
+/*journal date*/ 
+h3{
+    max-width: 200px; 
+    min-width: 50px; 
+    height: 5mm; 
+    width: 100cm; 
+}
+
+
+/*journal entry*/
+p.entry{
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+    margin-left: 50px; 
+    margin-right: 50px; 
+    display: block; 
+}
+
+/*day 3 journal entry*/
+p.entry3{
+    margin: 50px 50px 50px 50px; 
+    display: block; 
+}
+
+/*to do list*/ 
+ul, ol{
+    margin: auto; 
+}
+
+/*day 1 picture*/ 
+picture.coffee{
+    position: relative; 
+}
+
+/*date of journal*/ 
+section h3{
+    color:rgb(255, 255, 255);
+}
+
+/*todo list*/ 
+section > ol{
+    color: rgb(255, 255, 255);
+}
+
+/*day and date of journal*/ 
+h2 ~ h3{
+    text-decoration: underline; 
+}
+
+/*to do list*/ 
+ol + p{
+    text-decoration: underline; 
+}
+
+/*pizza picture*/ 
+picture.pizza{
+    position: static; 
+}
+
+/*picture, audio and video of day one*/ 
+.dayOne{
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: nowrap;
+    align-items: baseline;
+}
+
+/*picture, audio and video of day two*/
+.dayTwo{
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5px; 
+    grid-auto-rows: minmax(100px, auto);
+}
+
+/*name and email at bottom of the page*/ 
+#end{
+    padding-top: 25px; 
+    padding-bottom: 25x;
+    padding-left: 25px;
+    padding-right: 25px; 
+}
+
+/*the form*/ 
+fieldset.form{
+    border-style: dashed; 
+    border-color: green; 
+    border-width: thick; 
+    border-radius: 20px; 
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(193, 225, 193);
+    }
+  }

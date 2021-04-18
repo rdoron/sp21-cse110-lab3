@@ -4,21 +4,22 @@
         <title>my journal</title>
         <meta name="Rachel Doron" content="Rachel's journals">
         <link rel="icon" href="icon.jpeg" type="image/jpeg">
+        <link rel = "stylesheet" href = "styles.css"> 
 
 
     </head>
 
     <body>
         <header>
-            <div>
+            <div class = "title">
                 <h1> Journal Entries </h1>
             </div>
 
-            <span>
+            <span class = "name">
                 by Rachel Doron
             </span>
 
-            <nav>
+            <nav class= "ucsdLink">
                 <a href= "https://ucsd.edu/"> ucsd website</a>
             </nav>
 
@@ -49,20 +50,23 @@
                     <li>do homework</li>
                 </ol>
         
-                <p>today was a very <b>stressful day.</b> I had <em> a lot </em> to do and I had to <br> manage my time well because there is always
+                <p class = "entry">today was a very <b>stressful day.</b> I had <em> a lot </em> to do and I had to <br> manage my time well because there is always
                     a long line <br> to get into the <strong>grocery store</strong> and I have snychronous classes. </p>
+
+                <section class = "dayOne">
+                    <picture class = "coffee">
+                        <img src = "coffee.jpeg" alt="coffee time" width = "150" height = "250" >
+                    </picture>
+            
+                    <audio controls>
+                        <source src="Day1song.m4a"  > 
+                    </audio>
+            
+                    <video width = "150" height = "250" controls>
+                        <source src = "sunset.MOV"> 
+                    </video>
+                </section>
         
-                <picture>
-                    <img src = "coffee.jpeg" alt="coffee time" width = "150" height = "250" >
-                </picture>
-        
-                <audio controls>
-                    <source src="Day1song.m4a"  > 
-                </audio>
-        
-                <video width = "150" height = "250" controls>
-                    <source src = "sunset.MOV"> 
-                </video>
 
             </section>
 
@@ -73,7 +77,7 @@
                 <h2> Day 2</h2>
                 <h3> <i> 4-9-2021</i></h3>
         
-                <ul>
+                <ul class = "todo">
                     <li>wake up at 6:00 am</li>
                     <li>watch lectures </li>
                     <li>went to go watch the sunset</li>
@@ -85,20 +89,24 @@
                     <li>do homework</li>
                 </ol>
         
-                <p>today was a very busy day. I had a <em>quiz </em> and lectues and an <strong>interview.</strong> <br> I think my interview went well but 
+                <p class = "entry">today was a very busy day. I had a <em>quiz </em> and lectues and an <strong>interview.</strong> <br> I think my interview went well but 
                     I am waiting to hear back and I am kind of nervous. <br> I also saw a very <b>pretty sunset today.</b> </p>
+
+                <section class = "dayTwo">
+                    <picture class = "pizza">
+                        <img src = "pizza.jpeg" alt="yummy pizza" width = "200" height = "250" >
+                    </picture>
+            
+                    <audio controls>
+                        <source src="Day2song.m4a"  > 
+                    </audio>
+            
+                    <video width = "150" height = "250" controls>
+                        <source src = "sandwich.mp4"> 
+                    </video>
+                </section>
         
-                <picture>
-                    <img src = "pizza.jpeg" alt="yummy pizza" width = "200" height = "250" >
-                </picture>
-        
-                <audio controls>
-                    <source src="Day2song.m4a"  > 
-                </audio>
-        
-                <video width = "150" height = "250" controls>
-                    <source src = "sandwich.mp4"> 
-                </video>
+
 
             </section>
 
@@ -108,7 +116,7 @@
                 <h2> Day 3</h2>
                 <h3><i> 4-10-2021</i></h3>
         
-                <ul>
+                <ul class = "todo">
                     <li>go grocery shopping</li>
                     <li>go to kate session park </li>
                     <li>run errands</li>
@@ -120,7 +128,7 @@
                     <li>do homework</li>
                 </ol>
         
-                <p>on the weekend I have a lot going on because I have to do  <br> homework and I want to have time to <em>relax. </em> 
+                <p class = "entry3">on the weekend I have a lot going on because I have to do  <br> homework and I want to have time to <em>relax. </em> 
                     I had a <b>fun weekend. </b> <br> I love going to <strong>kate sesssions park. </strong> </p>
         
                 <picture>
@@ -143,7 +151,7 @@
 
         <footer>
             <form>
-                <fieldset>
+                <fieldset class = "form">
 
                     <label for="fname">First name:</label>
                     <input type="text" id="fname" name="fname"><br><br>
@@ -226,7 +234,7 @@
                 </fieldset>
 
             </form>
-            <p> Author: Rachel Doron <br> email: rdoron@ucsd.edu </p>
+            <p id="end"> Author: Rachel Doron <br> email: rdoron@ucsd.edu </p>
         </footer>
 
 
